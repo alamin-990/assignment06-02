@@ -1,0 +1,452 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-size: 14px;
+}
+/* h1, h2, h3, h4, h5, h6{
+	font-family: 'Alfa Slab One', cursive;
+}
+p, a, a:hover{
+	font-family: 'Montserrat', sans-serif;
+} */
+a, a:hover{
+	text-decoration: none;
+}
+.menu-bar {
+    margin-top: 15px;
+    text-align: right;
+    margin-right: 10px;
+}
+.menu-bar{
+	margin-top: 15px;
+}
+.phone{
+	text-align: right;
+	width: 100%;
+	display: flex;
+}
+.phone img{
+	margin-right: 10px;
+}
+
+.header{
+	background: url('../images/banner.png');
+	min-height: ;
+}
+.header .nav-link{
+	font-size: 16px;
+	padding: 0 10px;
+	margin: 0 10px 0 0;
+	text-transform: uppercase;
+	font-weight: 500;
+	color: black !important;
+	letter-spacing: -1px;
+}
+.banner{
+	background: url('../images/banner.png');
+}
+.banner .col-lg-6 img{
+	margin-bottom: 40px;
+}
+.banner .bn-left p{
+	padding: 8px;
+	margin-top: 150px;
+	display: inline-block;
+	border: 2px dashed #3d2514;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: -1px;
+	color: #3d2514;
+}
+.banner .bn-left h1{
+	font-size: 92px;
+	font-weight: 700;
+	line-height: 102px;
+	text-shadow: 4px 4px 4px #fff;
+	letter-spacing: 6px;
+	color: #3d2514;
+	font-family: 'Alfa Slab One', cursive;
+	text-transform: uppercase;
+
+}
+.banner .bn-left h3{
+	font-size: 52px;
+	margin-bottom: 100px;
+	font-weight: 700;
+	line-height: 62px;
+	text-shadow: 4px 4px 4px #fff;
+	letter-spacing: 6px;
+	color: #3d2514;
+	font-family: 'Alfa Slab One', cursive;
+	text-transform: uppercase;
+
+}
+.banner .banner-img{
+	position: relative;
+}
+.bn-price{
+	height: 120px;
+	width: 120px;
+	border-radius: 50%;
+	background: red;
+	padding: 9px;
+	position: absolute;
+	left: 200px;
+    top: 400px;
+}
+.banner .bn-img{
+	position: absolute;
+}
+.banner .price{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border: 2px dashed white;
+	padding: 17px;
+    font-size: 25px;
+    color: white;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+.banner .price span{
+	font-size: 10px;
+}
+.flip{
+	transition: 1s;
+	overflow: hidden;
+	border-radius: 10px;
+}
+.card-flip{
+	transition: 1s;
+	width: 100%;
+}
+.card-flip:hover{
+	transform: scale(1.05, 1.05);
+}
+.burgers{
+	padding: 80px 0px;
+}
+.burgers .burger1{
+}
+.burgers .card-body{
+	position: absolute;
+	top: 20px;
+	left: 10px;
+}
+.burgers .card-body h4{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 500;
+	letter-spacing: -2px;
+	line-height: 26px;
+	color: #fff;
+}
+.burgers .card-body h2{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: -2px;
+	color: #fff;
+	margin-top: -15px;
+	line-height: 35px;
+}
+.burgers .card{
+	border-radius: 15px;
+}
+.choose{
+	padding: 80px 0px;
+}
+.choose h4{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	padding: 5px 10px;
+	display: inline-block;
+	background: #ffc045;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: -1px;
+	line-height: 26px;
+	color: #3d2514;
+}
+.choose h1{
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 45px;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-top: 15px;
+	line-height: 55px;
+	color: #3d2514;
+}
+.choose p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: 400;
+	line-height: 24px;
+	color: #3d2514;
+}
+.choose .card{
+	border: 1px solid #3d2514;
+	padding: 20px;
+	margin: 40px 10px 20px;
+	transition: .5s;
+}
+.choose .card:hover{
+	transform: translateY(-10px);
+}
+.choose .card p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: 500;
+	line-height: 24px;
+	color: #3d2514;
+}
+.choose .card h5{
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin-top: 15px;
+	line-height: 28px;
+	color: #3d2514;
+}
+.choose .card .btn-primary{
+	margin-left: 30%;
+	background: #bf2222 !important;
+	border: none;
+	border-radius: 0px;
+	padding: 10px 20px;
+}
+.choose .card .img{
+	width: 400px;
+	text-align: center;
+}
+.choose .card .img img{
+	width: 300px;
+}
+.upcoming{
+	padding: 80px 0px;
+}
+.upcoming .discover{
+	width: 100%;
+	color: #ffffff;
+	padding: 20px;
+	box-shadow: 0 10px 15px 5px rgba(0, 0, 0, .3);
+}
+.upcoming .discover h4{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin-top: 15px;
+	line-height: 28px;
+	color: #3d2514;
+}
+.upcoming .discover h1{
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 3px;
+	margin-top: -15px;
+	line-height: 40px;
+	color: #3d2514;
+}
+.upcoming .discover p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	letter-spacing: 2px;
+	text-transform: capitalize;
+	font-weight: 500;
+	line-height: 24px;
+	color: #3d2514;
+	margin-bottom: 180px;
+}
+.upcoming .discover .div{
+	display: flex;
+}
+.upcoming .discover .div .div1{
+	width: 13px;
+	height: 13px;
+	margin-right: 5px;
+	text-align: center;
+	border-radius: 50%;
+	cursor: pointer;
+	background: yellow;
+}
+.upcoming .discover .div .div2{
+	width: 13px;
+	height: 13px;
+	text-align: center;
+	border-radius: 50%;
+	background: #dcdcdc;
+	margin-right: 5px;
+	cursor: pointer;
+}
+.reservation{
+	padding: 80px 0px;
+	background: url('../images/bottol.png') top center no-repeat;
+	background-size: cover;
+}
+.reservation p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	letter-spacing: -1px;
+	text-transform: uppercase;
+	font-weight: 500;
+	line-height: 28px;
+	color: #3d2514;
+}
+.reservation h1{
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 32px;
+	text-transform: uppercase;
+	font-weight: 500;
+	margin-top: -15px;
+	line-height: 42px;
+	color: #3d2514;
+}
+.reservation .form{
+	width: 800px;
+	margin: 80px auto 0px;
+}
+.reservation .form input{
+	width: 100%;
+	padding: 15px 10px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	letter-spacing: -1px;
+	border: 1px solid gray;
+	border-top: none;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+	border-radius: 5px;
+}
+.reservation .form .btn-success{
+	width: 100%;
+	padding: 15px 10px;
+	background: #bf2222;
+	font-family: 'Alfa Slab One', cursive;
+	text-transform: uppercase;
+	color: white;
+	transition: .5s;
+}
+.reservation .form .btn-success:hover{
+	background: transparent;
+	border: 1px solid #bf2222;
+	color: #bf2222;
+}
+.ftr{
+	background: url('../images/footer.png') top center no-repeat;
+	background-size: cover;
+	padding: 20px 0 0;
+}
+.footer{
+	background: url('../images/footer.png') top center no-repeat;
+	background-size: cover;
+	box-shadow: 0 10px 10px 5px rgba(0, 0, 0, .7);
+	padding: 80px 20px 0px;
+}
+.footer p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	text-transform: capitalize;
+	font-weight: 500;
+	line-height: 24px;
+	color: white;
+	margin-top: 40px;
+}
+.footer .map{
+	margin-top: 90px;
+}
+.footer h4{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: -1px;
+	margin-bottom: 15px;
+	line-height: 26px;
+	color: #ffffff;
+}
+.footer h4 .fas{
+	margin-right: 20px;
+}
+.footer .social .fab{
+	color: black;
+	cursor: pointer;
+	background: white;
+	border-radius: 50%;
+	padding: 8px 8px;
+	font-size: 16px;
+	margin: 0 10px 5px 0;
+}
+.footer h5{
+	margin-bottom: 5px;
+	text-align: center;
+	font-size: 14px;
+	color: gray;
+	line-height: 24px;
+	font-family: 'Montserrat', sans-serif;
+}
+.footer h5 span{
+	text-transform: uppercase;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 985px){
+	.header .nav-link {
+    margin-top: 10px;
+}
+.navbar-brand{
+	margin-top: 40px;
+}
+}
+@media(max-width: 1398px){
+	.choose .card .img img {
+    width: 250px;
+    margin-right: 94px;
+}
+}
+@media(max-width: 1199px){
+
+	.choose .card .img img {
+    width: 208px;
+    margin-right: 169px;
+}
+}
+@media(max-width: 988px){
+	.choose .card .img img {
+    width: 100%;
+    margin-left: 110px;
+}
+}
+@media(max-width: 767px){
+	.choose .card .img img {
+    width: 200px;
+    margin-right: 100px;
+    margin-left: 108px;
+}
+}
+@media(max-width: 392px){
+	.choose .card .img img {
+    width: 200px;
+    margin-left: -39px;
+}
+}
